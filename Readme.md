@@ -25,7 +25,7 @@ The first 3 are usually pre installed on most Unix systems.
 ### Setup
 1. Clone this repo
 2. `chmod +x bai.sh`
-3. `cp bai.sh to /usr/local/bin/bai`
+3. `cp bai.sh /usr/local/bin/bai`
 4. `export OPENAI_API_KEY=<your key here>`
 
 Done
@@ -39,4 +39,7 @@ so that you don't have to export the key wevery time you start the terminal.
 ### Usage
 
 ![demo](./assets/demo.gif)
+
+
+You can also use the `-v` option instead, to interact with `bai` like a normal verbose chatbot.
 
