@@ -38,5 +38,5 @@ so that you don't have to export the key wevery time you start the terminal.
 
 ### Usage
 
-[demo](./assets/demo.gif)
+![demo](./assets/demo.gif)
 
