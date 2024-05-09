@@ -18,7 +18,6 @@ get_gpt_response(){
         ],
         \"temperature\": 0
     }")
-
     response_text=$(echo "$response" | jq -r '.choices[0].message.content')
     echo $response_text
 }
@@ -46,7 +45,6 @@ if ! command -v curl &> /dev/null  ||  ! command -v jq &> /dev/null; then
     exit 1
 fi
 
-
 if [ "$1" == '-v' ]; then # verbose mode
     all_args="$*"
     args="${all_args:3}"
@@ -63,7 +61,8 @@ else # command mode
         exit 1
     fi
 
-    response_text=$(get_gpt_response "$args" "You are a helpful assistant that is an expert in bash scripting. \
+    platform=$(uname)
+    response_text=$(get_gpt_response "$args" "You are a helpful assistant that is an expert in bash scripting (on $platform). \
     Users ask you how to do things in bash, and you retrun the bash command only. Do not put the command in a code block.")
 
 

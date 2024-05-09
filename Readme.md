@@ -41,5 +41,8 @@ so that you don't have to export the key wevery time you start the terminal.
 ![demo](./assets/demo.gif)
 
 
-You can also use the `-v` option instead, to interact with `bai` like a normal verbose chatbot.
+Features:
+
+- You can also use the `-v` option instead, to interact with `bai` like a normal verbose chatbot.
+- Autodetects your platform when suggesting commands
 
