@@ -13,9 +13,9 @@ Fear no more `bai` has you covered.
 > Disclaimer: You are responsibel for vetting any commands the AI generates before hitting Enter to execute them!
 
 Prerequisites:
-- bash
-- curl
-- jq
+- bash (usally pre-installed)
+- curl (usally pre-installed)
+- jq (easily installed with `apt-get install jq` or equivalent)
 - OpenAi API key
 
 The first 3 are usually pre installed on most Unix systems.
