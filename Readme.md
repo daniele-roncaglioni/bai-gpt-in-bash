@@ -18,8 +18,6 @@ Prerequisites:
 - jq (easily installed with `apt-get install jq` or equivalent)
 - OpenAi API key
 
-The first 3 are usually pre installed on most Unix systems.
-
 ## How to
 
 ### Setup
